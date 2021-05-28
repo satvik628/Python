@@ -21,8 +21,12 @@ class Coder(object):
         print(self.name+' '+self.div+' '+self.age+' '+self.dob+' '+self.languages+' '+self.school+' '+self.level)
 
 
-satvik=Coder("Satvik","8A","13","6-Feb-2008","Javascript,react-native,css,html,python","The lovedale sr. sec. school satna(MP)","Proffesoner")
-teacher=Coder("Swetha Mam","Learnt","NA","9 JAN ","JavaScript,react-native,python,c++,css,html","Whitehat JR.","Proffesional Coder")
+coder1=Coder("Coder_Name","Class","Age","D.O.B","python,javascript etc.","School Name","His/Her Level")
+coder2=Coder("Coder2","Coder2_grade","Age","D.O.B ","JavaScript,react-native,python,c++,css,html","School_Name","Proffesional Coder")
 
-satvik.getAbout()
-teacher.getAbout()
+
+coder1.getAbout()
+coder2.getAbout()
+
+print(coder1.getLanguage())
+print(coder2.getLanguage())
